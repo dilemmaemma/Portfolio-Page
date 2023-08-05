@@ -150,7 +150,7 @@
 }
 
 @media only screen 
-and (min-device-width : 320px) 
+and (min-device-width : 200px) 
 and (max-device-width : 1920px) {
 .searchbar {
     display: inline-flex;
