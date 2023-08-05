@@ -150,15 +150,17 @@
 }
 
 @media only screen 
-and (min-device-width : 200px) 
+and (min-device-width : 320px) 
 and (max-device-width : 1920px) {
-.searchbar {
-    display: inline-flex;
-    margin-left: 63%;
-}
-.search-icon {
-    max-width: 12%;
-    max-height: 6%;
-    margin-top: 1.5%
-}
+    .searchbar {
+        display: inline-flex;
+        margin-left: 63%;
+    }
+    .search-icon {
+        max-width: 12%;
+        max-height: 6%;
+        min-width: none;
+        min-height: none;
+        margin-top: 1.5%
+    }
 }
