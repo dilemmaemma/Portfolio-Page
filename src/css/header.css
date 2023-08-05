@@ -159,8 +159,8 @@ and (max-device-width : 1920px) {
     .search-icon {
         max-width: 12%;
         max-height: 6%;
-        min-width: none;
-        min-height: none;
+        min-width: 2%;
+        min-height: 1%;
         margin-top: 1.5%
     }
 }
