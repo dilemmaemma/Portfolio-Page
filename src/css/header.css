@@ -149,9 +149,18 @@
     }
 }
 
+/* .searchbar {
+    display: inline-flex;
+    margin-left: 77.5em;
+} */
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 1920px) {
 .searchbar {
     display: inline-flex;
-    margin-left: 77.5em
+    margin-left: 63%;
+}
 }
 
 .search-icon {
