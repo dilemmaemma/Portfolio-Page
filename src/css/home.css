@@ -1,0 +1,5 @@
+.main {
+    background-image: url('../images/CodingKitty.png');
+    max-width: fit-content;
+    max-height: fit-content; /* Might need to limit this to 100% or some shit depending on how it renders on page */
+}
