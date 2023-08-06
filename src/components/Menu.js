@@ -1,6 +1,6 @@
 import React from 'react'
 import '../css/header.css'
-import {Link, Route, Routes} from 'react-dom'
+import {Link, Route, Routes} from 'react-router-dom'
 import Home from './Home'
 import Projects from './Projects'
 import About from './About'
