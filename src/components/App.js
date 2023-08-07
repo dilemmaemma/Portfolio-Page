@@ -8,7 +8,7 @@ import Projects from './Projects';
 import About from './About';
 import Contact from './Contact';
 import SearchBar from './SearchBar';
-import Mobile from './Mobile';
+import Mobile from '../depreciated/Mobile';
 
 function App() {
 
