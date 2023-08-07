@@ -19,7 +19,7 @@ function detectmobile() {
 }
 
 if ( detectmobile() && document.documentElement.clientWidth <= 768 ){
-  window.location.href = 'http://www.facebook.com'; //Temporary link redirect. Will make a mobile friendly site later after pc site completion
+  window.location.href = 'http://www.dilemmacatcoding.com/mobile'; //Temporary link redirect. Will make a mobile friendly site later after pc site completion
 } else {
   root.render(
     <BrowserRouter>
