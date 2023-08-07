@@ -168,10 +168,21 @@ and (max-device-width : 1920px) {
 .redirect {
     display: flex;
     justify-content: space-between;
+    align-content: center;
     color: #333;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
-    margin-top: -20%;
+}
+
+.child1 {
+    margin-top: -20%
+}
+
+.child2 {
+    margin-top: -14.5%
+}
+.child3 {
+    margin-top: -9%
 }

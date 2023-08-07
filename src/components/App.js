@@ -29,9 +29,11 @@ function App() {
                 <li><Link to='contact' className='menu__item'>Contact</Link></li>
               </nav>
             </ul>
-                <span><a href='http://github.com/dilemmaemma' className='redirect'>GitHub</a></span>
-                <span><a href='http://linkedin.com/in/emmahtml' className='redirect'>LinkedIn</a></span>
-                <SearchBar />
+              <span></span>
+              <span><a href='http://github.com/dilemmaemma' className='redirect child1'>GitHub</a></span>
+              <span><a href='http://linkedin.com/in/emmahtml' className='redirect child2'>LinkedIn</a></span>
+              <span><a href='https://app.codesignal.com/profile/emmahtml' className='redirect child3'>CodeSignal</a></span>
+              <SearchBar />
           </div>
         </nav>
       </header>
