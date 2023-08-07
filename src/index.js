@@ -4,6 +4,7 @@ import './index.css';
 import App from './components/App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
@@ -24,6 +25,7 @@ if ( detectmobile() && document.documentElement.clientWidth <= 768 ){
   root.render(
     <BrowserRouter>
       <App />
+      <Analytics />
     </BrowserRouter>
   );
 }
