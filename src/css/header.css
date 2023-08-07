@@ -164,3 +164,14 @@ and (max-device-width : 1920px) {
         margin-top: 1.5%
     }
 }
+
+.redirect {
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: -20%;
+}
