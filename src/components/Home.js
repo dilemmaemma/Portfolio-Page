@@ -1,13 +1,13 @@
 import React from 'react'
 import '../css/home.css'
-import CodingKitty from '../images/CodingKitty.png'
+import CodingKitty from '../images/CodingKitty_Background.png'
 
 const Home = () => {
     return (
         <div>
             <div className='body'>
                 <img src={CodingKitty}></img>
-                <h1 className='main'>Hello World!</h1>
+                <h1>Hello World!</h1>
             </div>
             <footer className='footer'>
                     <div className='footer-container'>
